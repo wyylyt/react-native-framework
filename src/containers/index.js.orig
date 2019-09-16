@@ -1,0 +1,33 @@
+import Index from './Index/Index.js';
+import Info from './Info/Info.js';
+import Control from './Control/Control.js';
+import SocialInfo from './SocialInfo/SocialInfo.js';
+import BasicFileEnquiry from './BasicFileEnquiry/BasicFileEnquiry.js';
+import CommunityDrugTreatment from './CommunityDrugTreatment/CommunityDrugTreatment.js';
+import StandInfoDetail from './StandInfoDetail/StandInfoDetail.js';
+import UrinalysisDetail from './UrinalysisDetail/UrinalysisDetail.js';
+import AddStaffDetail from './AddStaffDetail/AddStaffDetail.js';
+import ControlAnalysis from './ControlAnalysis/ControlAnalysis.js';
+import Remindsy from './Remindsy/Remindsy.js';
+import DrugsterDetail from './DrugsterDetail/DrugsterDetail.js';
+import Test from './Test/Test.js';
+import HighRiskWarning from './HighRiskWarning/HighRiskWarning.js';
+import OutControlDetail from './OutControlDetail/OutControlDetail.js';
+
+export {
+  Index,
+  Info,
+  Control,
+  BasicFileEnquiry,
+  SocialInfo,
+  CommunityDrugTreatment,
+  StandInfoDetail,
+  UrinalysisDetail,
+  AddStaffDetail,
+  ControlAnalysis,
+  Remindsy,
+  DrugsterDetail,
+  Test,
+  HighRiskWarning,
+  OutControlDetail,
+};

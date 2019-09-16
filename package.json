@@ -1,0 +1,41 @@
+{
+  "name": "testApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "adb": "sh ./execute/adb.sh",
+    "status": "sh ./execute/status.sh",
+    "dev": "react-native run-android",
+    "build": "sh ./execute/build.sh"
+  },
+  "dependencies": {
+    "@ant-design/icons-react-native": "^1.0.2",
+    "@ant-design/react-native": "^3.1.14",
+    "antd-mobile-rn": "^2.3.3",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-svg": "^9.7.1",
+    "react-native-svg-transformer": "^0.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-import": "^1.12.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "babel-eslint": "^8.2.6",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
